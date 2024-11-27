@@ -20,7 +20,7 @@ export function CategoryFilters({
             <Badge
               key={category}
               variant={selectedCategories.includes(category) ? "default" : "outline"}
-              className="cursor-pointer transition-colors duration-200"
+              className="cursor-pointer transition-colors duration-200 dark:bg-[#121212] dark:text-neutral-foreground"
               onClick={() => onToggleCategory(category)}
             >
               {category}

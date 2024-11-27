@@ -9,7 +9,7 @@ interface ToolCardProps {
 
 export default function ToolCard({ tool }: ToolCardProps) {
   return (
-    <Card className="flex flex-col h-full">
+    <Card className="flex flex-col h-full dark:bg-[#121212]">
       <CardHeader>
         <CardTitle>{tool.name}</CardTitle>
         <CardDescription>{tool.description}</CardDescription>
@@ -22,7 +22,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         </div>
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full">
+        <Button asChild className="w-full dark:bg-neutral-700 dark:text-white">
           <a href={tool.url} target="_blank" rel="noopener noreferrer">Visit Tool</a>
         </Button>
       </CardFooter>
