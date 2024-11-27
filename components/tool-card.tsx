@@ -29,4 +29,3 @@ export default function ToolCard({ tool }: ToolCardProps) {
     </Card>
   )
 }
-

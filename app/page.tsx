@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ToolCategory } from '@/app/types/tool'
 
-const allCategories: ToolCategory[] = ['Email', 'Name', 'Username', 'Password', 'Phone', 'Address', 'Social Media', 'Domain', 'IP']
+const allCategories: ToolCategory[] = ['Email', 'Name', 'Username', 'Password', 'Phone', 'Address', 'Social Media', 'Domain', 'IP', 'API', 'Free']
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')

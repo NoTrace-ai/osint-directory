@@ -1,4 +1,4 @@
-export type ToolCategory = 'Email' | 'Name' | 'Username' | 'Password' | 'Phone' | 'Address' | 'Social Media' | 'Domain' | 'IP'
+export type ToolCategory = 'Email' | 'Name' | 'Username' | 'Password' | 'Phone' | 'Address' | 'Social Media' | 'Domain' | 'IP' | 'API' | 'Free'
 
 export interface Tool {
   id: string;
@@ -7,4 +7,3 @@ export interface Tool {
   url: string;
   categories: ToolCategory[];
 }
-
