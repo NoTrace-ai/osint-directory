@@ -1,19 +1,24 @@
+import { Logo } from '@/components/icons/logo'
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 border-t">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">About OSINT Tools</h3>
+            <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700 flex items-center mb-2">
+              <span className="mr-[-1.5px]"><Logo /></span> SINT Tools
+            </Link>
             <p className="text-gray-600">
               A curated directory of Open Source Intelligence (OSINT) tools.
             </p>
           </div>
           <div />
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Contact</h3>
             <p className="text-gray-600">
-              Have a suggestion or found a bug? Please open an issue on GitHub.
+              Want to add a tool to directory or found a bug? Please open an issue on <Link href="https://github.com/braindead-dev/osint-list" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-900">GitHub.</Link>
             </p>
           </div>
         </div>

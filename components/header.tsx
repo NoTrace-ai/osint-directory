@@ -1,14 +1,14 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import { FaGithub } from 'react-icons/fa'
+import { Logo } from '@/components/icons/logo'
 
 export default function Header() {
   return (
     <header className="border-b">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700">
-            OSINT Tools
+          <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700 flex items-center">
+            <span className="mr-[-1.5px]"><Logo /></span> SINT Tools
           </Link>
           <nav>
             <ul className="flex items-center space-x-4">
@@ -21,9 +21,6 @@ export default function Header() {
                 >
                   <FaGithub className="w-6 h-6" />
                 </a>
-              </li>
-              <li>
-                <Button variant="outline">Contact</Button>
               </li>
             </ul>
           </nav>
