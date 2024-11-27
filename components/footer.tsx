@@ -12,10 +12,10 @@ export default function Footer() {
                 href="/"
                 className="text-2xl font-bold text-gray-900 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300 flex items-center"
               >
-                <span className="relative top-[-2px] mr-[-1.5px]">
+                <span className="relative top-[-0.55px] mr-[-1.5px]">
                   <Logo />
                 </span>
-                <span>SINT Tools</span>
+                <span>SINT.<span className="text-lg">broker</span></span>
               </Link>
               <Link
                 href="https://henr.ee"

@@ -20,8 +20,8 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-foreground hover:text-foreground/90 flex items-center">
-            <span className="mr-[-1.5px] relative -top-[0.5px]"><Logo /></span> SINT Tools
+          <Link href="/" className="text-2xl font-bold text-foreground hover:text-foreground/90 flex items-end">
+            <span className="mr-[-1.5px] relative -top-[5.4px]"><Logo /></span> SINT.<span className="text-lg">broker</span>
           </Link>
           <nav>
             <ul className="flex items-center space-x-2">

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { tools } from '@/app/data/tools'
 import ToolCard from '@/components/tool-card'
 import { ToolCategory } from '@/app/types/tool'
@@ -31,10 +32,12 @@ export default function Home() {
     <div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-14">
         <div className="text-4xl font-bold mb-6 text-center">       
-          <h1 className='mb-[-12px]'>OSINT Tools Directory</h1>     
-          <span className="text-sm font-medium font-mono text-gray-600 hover:text-gray-500">
-            osint.henr.ee
-          </span> 
+          <h1 className='mb-[-12px]'>OSINT Tools Directory</h1>    
+          <Link href="/">
+            <span className="text-sm font-medium font-mono text-gray-600 hover:text-gray-500">
+              osint.broker
+            </span> 
+          </Link>
         </div>
         <div className="max-w-2xl mx-auto">
           <SearchBar
