@@ -11,8 +11,8 @@ export default function Footer() {
               href="/"
               className="text-2xl font-bold text-gray-900 hover:text-gray-700 flex items-baseline mb-2"
             >
-              <span className="mr-[-1.5px]"> <Logo /> </span> <span>SINT Tools</span>
-              <span className="text-xs font-medium text-gray-600 hover:text-gray-500 ml-2 items-baseline">
+              <span className="mr-[-1.5px] relative -top-[-2px]"> <Logo /> </span> SINT Tools
+              <span className="text-xs font-medium text-gray-600 hover:text-gray-500 ml-2">
                 by henr.ee
               </span>
             </Link>

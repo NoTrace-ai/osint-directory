@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-14">
       <div className="text-4xl font-bold mb-6 text-center">       
         <h1 className='mb-[-12px]'>OSINT Tools Directory</h1>     
         <span className="text-sm font-medium font-mono text-gray-600 hover:text-gray-500">
