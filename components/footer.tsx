@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-200">
+        <div className="mt-4 pt-8">
           <p className="text-center text-gray-600">
             made with ❤️ by{' '}
             <a
