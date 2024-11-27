@@ -29,7 +29,12 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">OSINT Tools Directory</h1>
+      <div className="text-4xl font-bold mb-6 text-center">       
+        <h1 className='mb-[-12px]'>OSINT Tools Directory</h1>     
+        <span className="text-sm font-medium font-mono text-gray-600 hover:text-gray-500">
+          osint.henr.ee
+        </span> 
+      </div>
       <div className="mb-8">
         <Input
           type="text"
