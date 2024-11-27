@@ -29,14 +29,14 @@ export default function Header() {
                 <ThemeToggle />
               </li>
               <li>
-                <a
+                <Link
                   href="https://github.com/braindead-dev/osint-list"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-foreground transition-colors p-2 rounded-md"
                 >
                   <FaGithub className="w-5 h-5" />
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

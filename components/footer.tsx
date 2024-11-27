@@ -7,15 +7,23 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <Link
-              href="/"
-              className="text-2xl font-bold text-gray-900 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300 flex items-baseline mb-2"
-            >
-              <span className="mr-[-1.5px] relative -top-[-2px]"> <Logo /> </span> SINT Tools
-              <span className="text-xs font-medium text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 ml-2">
+            <div className="flex items-end mb-2">
+              <Link
+                href="/"
+                className="text-2xl font-bold text-gray-900 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300 flex items-center"
+              >
+                <span className="relative top-[-2px] mr-[-1.5px]">
+                  <Logo />
+                </span>
+                <span>SINT Tools</span>
+              </Link>
+              <Link
+                href="https://henr.ee"
+                className="text-xs font-medium text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 ml-2 mb-1"
+              >
                 by henr.ee
-              </span>
-            </Link>
+              </Link>
+            </div>
             <p className="text-gray-600 dark:text-gray-400">
               A curated directory of Open Source Intelligence (OSINT) tools.
             </p>
@@ -31,14 +39,14 @@ export default function Footer() {
         <div className="mt-4 pt-8">
           <p className="text-center text-gray-600 dark:text-gray-400">
             made with ❤️ by{' '}
-            <a
+            <Link
               href="https://henr.ee"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 font-medium"
             >
               henry
-            </a>
+            </Link>
           </p>
         </div>
       </div>

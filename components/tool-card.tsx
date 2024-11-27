@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from 'next/link'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Tool } from "@/app/types/tool"
@@ -23,7 +24,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
       </CardContent>
       <CardFooter>
         <Button asChild className="w-full dark:bg-neutral-700 dark:text-white">
-          <a href={tool.url} target="_blank" rel="noopener noreferrer">Visit Tool</a>
+          <Link href={tool.url} target="_blank" rel="noopener noreferrer">Visit Tool</Link>
         </Button>
       </CardFooter>
     </Card>
