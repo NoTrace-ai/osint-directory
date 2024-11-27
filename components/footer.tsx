@@ -15,7 +15,7 @@ export default function Footer() {
                 <span className="relative top-[-0.55px] mr-[-1.5px]">
                   <Logo />
                 </span>
-                <span>SINT.<span className="text-lg">broker</span></span>
+                <span>SINT Tools</span>
               </Link>
               <Link
                 href="https://henr.ee"

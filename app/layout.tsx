@@ -7,7 +7,7 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'OSINT Tools',
+  title: 'OSINT Tools - osint.broker',
   description: 'A directory of Open Source Intelligence (OSINT) tools',
 }
 
