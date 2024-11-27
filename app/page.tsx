@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { tools } from './data/tools'
-import ToolCard from './components/tool-card'
+import ToolCard from '@/components/tool-card'
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ToolCategory } from './types/tool'
