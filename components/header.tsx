@@ -4,7 +4,7 @@ import { Logo } from '@/components/icons/logo'
 
 export default function Header() {
   return (
-    <header className="border-b">
+    <header>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700 flex items-center">
