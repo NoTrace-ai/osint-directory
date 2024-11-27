@@ -91,7 +91,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-400 text-center">
-            © 2023 OSINT Tools. All rights reserved.
+            Made with ❤️ by <a href="https://henrywa.ng" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">henry</a>
           </p>
         </div>
       </div>
