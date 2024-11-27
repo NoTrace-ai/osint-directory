@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OSINT Tools Directory
 
-## Getting Started
+<div align="center">
+  <img src="/public/images/logo.png" alt="OSINT Tools Logo" width="120" height="120">
+  <h3>OSINT Tools Directory</h1>
+  <p>A curated collection of Open Source Intelligence tools for security researchers</p>
 
-First, run the development server:
+  [![Website](https://img.shields.io/badge/Website-osint.broker-blue)](https://osint.broker)
+  [![Website](https://img.shields.io/badge/Website-osint.henr.ee-blue)](https://osint.henr.ee)
+  [![GitHub](https://img.shields.io/badge/GitHub-braindead--dev%2Fosint--list-black)](https://github.com/braindead-dev/osint-list)
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+OSINT Tools Directory is a modern, searchable catalog of essential tools for Open Source Intelligence gathering and research. The directory helps security researchers, investigators, and professionals discover and access the right tools for their OSINT needs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔍 **Smart Search**: Search tools by name or description
+- 🏷️ **Category Filtering**: Filter tools by categories like Email, Domain, Social Media, etc.
+- 🌓 **Dark Mode**: Comfortable viewing in both light and dark environments
+- 📱 **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-## Learn More
+## Categories
 
-To learn more about Next.js, take a look at the following resources:
+Tools are organized into the following categories:
+- Email
+- Name
+- Username
+- Password
+- Phone
+- Address
+- Social Media
+- Domain
+- IP
+- API
+- Free
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! To add a new tool or suggest improvements:
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create a new branch for your changes
+3. Submit a pull request with:
+   - Clear description of the changes
+   - Why the tool should be added (if applicable)
+   - Any relevant documentation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License - feel free to use this project as you wish.
+
+## Author
+
+Created by [henry](https://henr.ee)
+
+## Acknowledgments
+
+Thanks to all the OSINT tool creators and the open source community for making these resources available.
