@@ -7,7 +7,7 @@
 
   [![Website](https://img.shields.io/badge/Website-osint.broker-blue)](https://osint.broker)
   [![Website](https://img.shields.io/badge/Website-osint.henr.ee-blue)](https://osint.henr.ee)
-  [![GitHub](https://img.shields.io/badge/GitHub-braindead--dev%2Fosint--list-black)](https://github.com/braindead-dev/osint-list)
+  [![GitHub](https://img.shields.io/badge/GitHub-braindead--dev%2Fosint--list-black)](https://github.com/braindead-dev/osint-directory)
 </div>
 
 ## Overview

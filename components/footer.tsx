@@ -32,7 +32,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Contact</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Want to add a tool to directory or found a bug? Please open an issue on <Link href="https://github.com/braindead-dev/osint-list/issues" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">GitHub.</Link>
+              Want to add a tool to directory or found a bug? Please open an issue on <Link href="https://github.com/braindead-dev/osint-directory/issues" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">GitHub.</Link>
             </p>
           </div>
         </div>
