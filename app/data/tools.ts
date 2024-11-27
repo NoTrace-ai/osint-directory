@@ -1,4 +1,4 @@
-import { Tool } from '../types/tool'
+import { Tool } from '@/app/types/tool'
 
 export const tools: Tool[] = [
   {
