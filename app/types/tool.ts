@@ -1,7 +1,8 @@
-export type ToolCategory = 'Email' | 'Name' | 'Username' | 'Password' | 'Phone' | 'Address' | 'Social Media' | 'Domain' | 'IP' | 'API' | 'Free'
+export const allCategories = ['Email', 'Name', 'Username', 'Password', 'Phone', 'Address', 'Social Media', 'Domain', 'Metadata', 'Images', 'IP', 'API', 'Free'] as const
+
+export type ToolCategory = typeof allCategories[number]
 
 export interface Tool {
-  id: string;
   name: string;
   description: string;
   url: string;

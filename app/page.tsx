@@ -4,11 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { tools } from '@/app/data/tools'
 import ToolCard from '@/components/tool-card'
-import { ToolCategory } from '@/app/types/tool'
+import { ToolCategory, allCategories } from '@/app/types/tool'
 import { SearchBar } from '@/components/search-bar'
 import { CategoryFilters } from '@/components/category-filters'
-
-const allCategories: ToolCategory[] = ['Email', 'Name', 'Username', 'Password', 'Phone', 'Address', 'Social Media', 'Domain', 'IP', 'API', 'Free']
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -18,7 +16,7 @@ export default function Home() {
     (tool.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
      tool.description.toLowerCase().includes(searchTerm.toLowerCase())) &&
     (selectedCategories.length === 0 || selectedCategories.some(cat => tool.categories.includes(cat)))
-  )
+  ).sort((a, b) => a.name.localeCompare(b.name))
 
   const toggleCategory = (category: ToolCategory) => {
     setSelectedCategories(prev => 
@@ -48,7 +46,7 @@ export default function Home() {
       </div>
       
       <CategoryFilters
-        categories={allCategories}
+        categories={[...allCategories]}
         selectedCategories={selectedCategories}
         onToggleCategory={toggleCategory}
       />
@@ -56,7 +54,7 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredTools.map(tool => (
-            <ToolCard key={tool.id} tool={tool} />
+            <ToolCard key={tool.name} tool={tool} />
           ))}
         </div>
       </div>
