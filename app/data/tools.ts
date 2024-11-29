@@ -23,7 +23,7 @@ export const tools: Tool[] = [
     name: 'Maltego',
     description: 'Interactive data mining tool that renders directed graphs for link analysis.',
     url: 'https://www.maltego.com/',
-    categories: ['Email', 'Domain', 'IP', 'Social Media', 'API']
+    categories: ['Email', 'Domain', 'IP', 'Social Media', 'API', 'Metadata']
   },
   {
     name: 'Shodan',
@@ -59,6 +59,18 @@ export const tools: Tool[] = [
     name: 'Metagoofil',
     description: 'Extracts metadata of public documents (pdf, doc, xls, ppt, etc) from websites.',
     url: 'https://github.com/laramies/metagoofil',
-    categories: ['Domain', 'Free']
+    categories: ['Domain', 'Free', 'Metadata']
+  },
+  {
+    "name": "ExifTool",
+    "description": "A platform-independent Perl library plus a command-line application for reading, writing, and editing metadata in a wide variety of file types, including images.",
+    "url": "https://exiftool.org/",
+    "categories": ["Metadata", "Images", "Free"]
+  },
+  {
+    "name": "Yandex Reverse Image Search",
+    "description": "A reverse image search engine that helps find visually similar images or identify the source of an image.",
+    "url": "https://yandex.com/images/",
+    "categories": ["Images", "Free"]
   }
 ]
