@@ -6,7 +6,6 @@
   <p>A curated collection of Open Source Intelligence tools for security researchers</p>
 
   [![Website](https://img.shields.io/badge/Website-osint.broker-blue)](https://osint.broker)
-  [![Website](https://img.shields.io/badge/Website-osint.henr.ee-blue)](https://osint.henr.ee)
   [![GitHub](https://img.shields.io/badge/GitHub-NoTrace--ai%2Fosint--list-black)](https://github.com/NoTrace-ai/osint-directory)
 </div>
 
@@ -53,7 +52,7 @@ MIT License - feel free to use this project as you wish.
 
 ## Author
 
-Created by [henry](https://henr.ee)
+A [NoTrace](https://notrace.ai) product
 
 ## Acknowledgments
 
