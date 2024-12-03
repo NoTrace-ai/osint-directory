@@ -50,10 +50,9 @@ Contributions are welcome! To add a new tool or suggest improvements:
 
 MIT License - feel free to use this project as you wish.
 
-## Author
-
-A [NoTrace](https://notrace.ai) product
-
 ## Acknowledgments
 
 Thanks to all the OSINT tool creators and the open source community for making these resources available.
+
+---
+<div align="center"> made with ❤️ by <a href="https://notrace.ai">NoTrace</a> </div>
