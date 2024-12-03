@@ -18,10 +18,10 @@ export default function Footer() {
                 <span>SINT Tools</span>
               </Link>
               <Link
-                href="https://henr.ee"
+                href="https://notrace.ai"
                 className="text-xs font-medium text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 ml-2 mb-1"
               >
-                by henr.ee
+                by <span className="font-bold">NoTrace.ai</span>
               </Link>
             </div>
             <p className="text-gray-600 dark:text-gray-400">
@@ -32,7 +32,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Contact</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Want to add a tool to directory or found a bug? Please open an issue on <Link href="https://github.com/braindead-dev/osint-directory/issues" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">GitHub.</Link>
+              Want to add a tool to directory or found a bug? Please open an issue on <Link href="https://github.com/NoTrace-ai/osint-directory/issues" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">GitHub.</Link>
             </p>
           </div>
         </div>
@@ -40,12 +40,12 @@ export default function Footer() {
           <p className="text-center text-gray-600 dark:text-gray-400">
             made with ❤️ by{' '}
             <Link
-              href="https://henr.ee"
+              href="https://notrace.ai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 font-medium"
             >
-              henry
+              NoTrace
             </Link>
           </p>
         </div>

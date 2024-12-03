@@ -512,7 +512,7 @@ export const tools: Tool[] = [
     categories: ['Company', 'Paid']
   },
   {
-    name: 'Azure Tenant Resolution by PingCastle',
+    name: 'Azure Tenant Resolution',
     description: 'Search for Azure Tenant using its domain name or ID.',
     url: 'https://tenantresolution.pingcastle.com',
     categories: ['Domain', 'Network Analysis', 'Free']

@@ -30,7 +30,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="https://github.com/braindead-dev/osint-directory"
+                  href="https://github.com/NoTrace-ai/osint-directory"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-foreground transition-colors p-2 rounded-md"
