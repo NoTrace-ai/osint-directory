@@ -1,5 +1,6 @@
 import { Logo } from '@/components/icons/logo'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -43,9 +44,16 @@ export default function Footer() {
               href="https://notrace.ai"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-800 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 font-medium"
+              className="text-gray-800 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 font-medium inline-flex items-center"
             >
               NoTrace
+              <Image
+                src="/images/notrace.png"
+                alt="NoTrace Logo"
+                width={20}
+                height={20}
+                className="ml-1 relative top-[-3px]"
+              />
             </Link>
           </p>
         </div>
