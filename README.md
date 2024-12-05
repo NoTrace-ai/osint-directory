@@ -32,8 +32,23 @@ Tools are organized into the following categories:
 - Social Media
 - Domain
 - IP
+- Network Analysis
+- Metadata
+- Images
+- Videos
+- Documents
+- Geolocation
+- People
+- Company
+- Data Breaches
+- Threat Intelligence
+- Dark Web
+- Github
+- Monitoring
 - API
 - Free
+- Paid
+- Miscellaneous
 
 ## Contributing
 
