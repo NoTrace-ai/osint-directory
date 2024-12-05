@@ -52,13 +52,17 @@ Tools are organized into the following categories:
 
 ## Contributing
 
-Contributions are welcome! To add a new tool or suggest improvements:
+Contributions are welcome! To add a new tool:
+1. Open an [issue](https://github.com/NoTrace-ai/osint-directory/issues)
+2. Label the issue appropriately
+3. In the description, include why the tool should be added
+4. Submit the issue
 
+Or suggest sitewide improvements:
 1. Fork the repository
 2. Create a new branch for your changes
 3. Submit a pull request with:
    - Clear description of the changes
-   - Why the tool should be added (if applicable)
    - Any relevant documentation
 
 ## License
